@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from "react";
 import forCall from '../assets/call.png'
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 
 function Contact() {
     const [email, setEmail] = useState("");
@@ -83,11 +85,22 @@ function Contact() {
                     />
                 </div>
                 <div className="relative flex py-5 items-center ml-4">
-                    <span><img src={forCall} className='h-12 w-15' /></span>
+                    <span><img src={forCall} className='h-8 w-15' /></span>
                     <div className='ml-3'>+41 76 736 08 52</div>
                 </div>
             </form>
-
+            <div className='bg-black p-6 shadow-xl'>
+                <div className='flex content-center justify-center'>
+                <SocialIcon style={{width:40,height:40,borderRadius:20}} fgColor="white" bgColor url="https://twitter.com" />
+                <SocialIcon style={{width:40,height:40,borderRadius:20}} fgColor="white" bgColor url="https://facebook.com" />
+                <SocialIcon style={{width:40,height:40,borderRadius:20}} fgColor="white" bgColor url="https://instagram.com" />
+                <SocialIcon style={{width:40,height:40,borderRadius:20}} fgColor="white" bgColor url="https://linkedin.com" />
+                </div>
+                <div className='text-white tracking-tighter mt-3'>
+                    <span className='mx-2 text-lg cursor-pointer'>Terms of use.</span>
+                    <span className='mx-2 text-lg cursor-pointer'>Privacy policy</span>
+                </div>
+            </div>
         </div>
     )
 }
