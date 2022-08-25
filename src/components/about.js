@@ -13,8 +13,8 @@ function About() {
                     </p>
                 </div>
             </div>
-            <div className='w-full flex justify-end content-center absolute -bottom-12 left-0'>
-                <img src={shoppingmall} className="-z-20 flex h-1/2 w-7/12" />
+            <div className='w-full flex justify-end content-center ml-32 -mt-64 mb-36 left-0'>
+                <img src={shoppingmall} className="-z-20 h-1/2 w-10/12" />
             </div>
             <div className='w-11/12 mx-4 md:pb-10 -mt-24'>
                 <div className='font-bold text-lg'>ABOUT US</div>
