@@ -24,8 +24,8 @@ function Body() {
                     <h1 className="mb-3 text-xl ml-4 font-semibold tracking-tight w-52 text-blue-400">REINHEIT</h1>
                 </div>
             </div>
-            <div className='w-full flex justify-end content-center absolute ml-24 top-60 -right-10'>
-            <img src={drop} className="-z-20 flex mt-8 h-4/12 w-5/6" />
+            <div className='w-full flex justify-end content-center absolute top-60 left-6'>
+            <img src={drop} className="-z-20 flex mt-8 h-4/12 w-4/6" />
             </div>
         </div>
     );
