@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="" id="about">
       <div className="cursor-pointer w-full flex">
-        <div className="w-3/4 -mt-32">
+        <div className="w-1/2 -mt-32">
           <img src={drop}  className="" />
           <div className="-mt-96">
             <p className="mb-3 text-3xl px-32 font-semibold">
