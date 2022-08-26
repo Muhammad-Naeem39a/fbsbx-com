@@ -29,9 +29,9 @@ function Body() {
         <div className="w-1/2">
           <img src={page2} className="flex mt-2" />
         </div>
-        <div className="w-1/2 -mt-56 mr-56">
+        <div className="w-1/2 -mt-32 mr-56">
           <img src={drop} className="ml-auto"/>
-          <div className="-mt-96 md:-pt-96 flex">
+          <div className="-mt-96 -pt-96 flex">
             <div className="xs:text-xl sm:text-2xl md:text-6xl">
               <h1 className="mb-3 text-3xl font-semibold tracking-tight w-52 text-blue-400">
                 ERLEBEN SIE

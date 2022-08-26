@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="" id="about">
       <div className="cursor-pointer w-full flex">
-        <div className="w-1/2 mt-96 pt-96 absolute top-full -left-24" style={{marginTop:600}}>
+        <div className="w-1/2 mt-96 pt-96 absolute top-full -left-24" style={{marginTop:400}}>
           <img src={drop}  className="" />
           <div className="absolute bottom-1/4">
             <p className="mb-3 text-3xl px-32 font-semibold">
