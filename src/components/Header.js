@@ -15,7 +15,7 @@ function Header() {
           <div>
             <div className="flex items-center justify-between md:py-5 md:block">
               <a href="javascript:void(0)">
-                <img src={logo} className='h-12 md:w-4/6 2xs:3/3' />
+                <img src={logo} className='w-52 ml-12' />
               </a>
               <div className="md:hidden">
                 <button
@@ -60,7 +60,7 @@ function Header() {
               className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
                 }`}
             >
-              <ul className="items-center justify-center space-y-8 mt-6 md:flex md:space-x-6 md:space-y-0 md:text-xs">
+              <ul className="items-center justify-center space-y-8 mt-6 md:flex md:space-x-12 md:space-y-0 md:text-xl font-bold">
                 <li className="text-gray-600 hover:text-blue-600">
                   <a href="#home">Home</a>
                 </li>

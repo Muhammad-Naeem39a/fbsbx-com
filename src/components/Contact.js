@@ -13,7 +13,7 @@ function Contact() {
         e.preventDefault();
     }
     return (
-        <div className='mt-12'>
+        <div className='mt-12' id='contact'>
             <form onSubmit={(e) => { submitEmail(e) }} className="bg-white rounded px-8 pt-6 pb-8 mb-4 max-w-md min-w-xs mx-auto sm:max-w-xl xs:w-full">
                 <div className="mx-4">
                     <label
