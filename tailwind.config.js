@@ -5,11 +5,14 @@ module.exports = {
   ],
   theme: {
     screens: {
-      "2xs":"0px",
+      xs: "512px",
       // => @media (min-width: 512px) { ... }
 
-      md: "290px",
-      // => @media (min-width: 512px) { ... }
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
 
       lg: "1024px",
       // => @media (min-width: 1024px) { ... }

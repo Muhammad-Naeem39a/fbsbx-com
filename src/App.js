@@ -7,10 +7,10 @@ import About from "./components/about";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-screen">
       <div id="home" className="shadow-xl border-t scroll-smooth">
         <Header />
-        <div>
+        <div className="w-screen">
           <Body />
           <div className="py-12">
             <div className="bg-gray-200 h-4"></div>

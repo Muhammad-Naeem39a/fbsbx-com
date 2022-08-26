@@ -6,14 +6,14 @@ import page2 from "../assets/page(2).png"
 
 function Body() {
   return (
-    <div className="">
-      <div className="w-full flex relative overflow-hidden cursor-pointer">
-        <img src={sidedots} className=" content-end h-60 w-52 -ml-1 mt-4" />
-        <div className="absolute px-6 py-16 z-30">
-          <h1 className=" text-4xl font-semibold w-5/12 tracking-tight text-black">
+    <div className="w-full">
+      <div className="flex overflow-hidden cursor-pointer">
+        <img src={sidedots} className="content-start h-2/12 w-2/12" />
+        <div className="absolute md:py-16 md:mt-28 ml-16 z-30">
+          <h1 className="xs:text-xl sm:text-2xl md:text-4xl font-semibold w-5/12 text-black">
             MALO Reinigung GmbH
           </h1>
-          <p className="leading-normal w-5/12 mt-4 text-black">
+          <p className="xs:text-xl sm:text-2xl md:text-2xl mt-8 w-5/12 text-black">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem est
             placeat perspiciatis ratione nemo. Placeat, autem rerum. Animi,
             soluta excepturi, vero aliquid sequi fugiat facilis voluptas
@@ -21,19 +21,18 @@ function Body() {
           </p>
         </div>
         <img
-          style={{ marginLeft: 450 }}
           src={homePage}
-          className="flex mt-2 w-1/2 mr-12"
+          className="flex mt-2 w-1/2 ml-auto"
         />
       </div>
-      <div className="w-full flex overflow-hidden cursor-pointer md:pb-10">
+      <div className=" flex overflow-hidden cursor-pointer md:pbs-10">
         <div className="w-1/2">
-          <img src={page2} className="flex ml-10 mt-2 " />
+          <img src={page2} className="flex mt-2" />
         </div>
-        <div className="w-1/2 -mt-64">
-          <img src={drop} className="" />
-          <div className="w-full -mt-80 flex">
-            <div className="absolute py-4">
+        <div className="w-1/2 -mt-56 mr-56">
+          <img src={drop} className="ml-auto"/>
+          <div className="-mt-96 md:-pt-96 flex">
+            <div className="xs:text-xl sm:text-2xl md:text-6xl">
               <h1 className="mb-3 text-3xl font-semibold tracking-tight w-52 text-blue-400">
                 ERLEBEN SIE
               </h1>

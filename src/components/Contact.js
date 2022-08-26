@@ -27,13 +27,13 @@ function Contact() {
       >
         <div className="mx-4">
           <label
-            className="block text-gray-700 text-sm text-left font-bold mb-2"
+            className="block text-gray-700 xs:text-sm sm:text-lg md:text-xl text-left font-bold mb-2"
             htmlFor="fName"
           >
             First Name
           </label>
           <input
-            className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+            className="bg-white focus:outline-none xs:text-sm sm:text-lg md:text-xl focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
             id="fName"
             autoComplete="new"
             onChange={(e) => setFirstName(e.target.value)}
@@ -43,13 +43,13 @@ function Contact() {
         </div>
         <div className="mx-4">
           <label
-            className="block text-gray-700 text-sm text-left font-bold mb-2"
+            className="block text-gray-700 xs:text-sm sm:text-lg md:text-xl text-left font-bold mb-2"
             htmlFor="lName"
           >
             Last Name
           </label>
           <input
-            className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+            className="bg-white focus:outline-none xs:text-sm sm:text-lg md:text-xl focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
             id="lName"
             onChange={(e) => setLastName(e.target.value)}
             value={lastName}
@@ -58,13 +58,13 @@ function Contact() {
         </div>
         <div className="mx-4">
           <label
-            className="block text-gray-700 text-sm text-left font-bold mb-2"
+            className="block text-gray-700 xs:text-sm sm:text-lg md:text-xl text-left font-bold mb-2"
             htmlFor="email"
           >
             Email
           </label>
           <input
-            className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+            className="bg-white focus:outline-none xs:text-sm sm:text-lg md:text-xl focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
             type="email"
             id="email"
             onChange={(e) => setEmail(e.target.value)}
@@ -74,27 +74,27 @@ function Contact() {
         </div>
         <div className="mx-4">
           <label
-            className="block text-gray-700 text-sm text-left font-bold mb-2"
+            className="block text-gray-700 xs:text-sm sm:text-lg md:text-xl text-left font-bold mb-2"
             htmlFor="message"
           >
             Message
           </label>
           <input
-            className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+            className="bg-white focus:outline-none xs:text-sm sm:text-lg md:text-xl focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
             id="message"
             onChange={(e) => setMessage(e.target.value)}
             value={message}
             type="text"
           />
         </div>
-        <div className="mx-4 my-4">
+        <div className="mx-4 my-4 xs:text-sm sm:text-lg md:text-xl">
           <input
             className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-50 appearance-none leading-normal"
             id="submit"
             type="submit"
           />
         </div>
-        <div className="relative flex py-5 items-center ml-4">
+        <div className="relative flex py-5 items-center ml-4 xs:text-sm sm:text-lg md:text-xl">
           <span>
             <img src={forCall} className="h-8 w-15" />
           </span>
@@ -125,33 +125,33 @@ function Contact() {
       <div className="bg-black p-6 shadow-xl">
         <div className="flex content-center justify-center">
           <SocialIcon
-            style={{ width: 40, height: 40, borderRadius: 20 }}
+            style={{ width: 60, height: 60, borderRadius: 20 }}
             fgColor="white"
             bgColor
             url="https://twitter.com"
           />
           <SocialIcon
-            style={{ width: 40, height: 40, borderRadius: 20 }}
+            style={{ width: 60, height: 60, borderRadius: 20 }}
             fgColor="white"
             bgColor
             url="https://facebook.com"
           />
           <SocialIcon
-            style={{ width: 40, height: 40, borderRadius: 20 }}
+            style={{ width: 60, height: 60, borderRadius: 20 }}
             fgColor="white"
             bgColor
             url="https://instagram.com"
           />
           <SocialIcon
-            style={{ width: 40, height: 40, borderRadius: 20 }}
+            style={{ width: 60, height: 60, borderRadius: 20 }}
             fgColor="white"
             bgColor
             url="https://linkedin.com"
           />
         </div>
         <div className="text-white tracking-tighter mt-3">
-          <span className="mx-2 text-lg cursor-pointer">Terms of use.</span>
-          <span className="mx-2 text-lg cursor-pointer">Privacy policy</span>
+          <span className="mx-2 xs:text-lg sm:text-xl md:text-2xl cursor-pointer">Terms of use.</span>
+          <span className="mx-2 xs:text-lg sm:text-xl md:text-2xl cursor-pointer">Privacy policy</span>
         </div>
       </div>
     </div>

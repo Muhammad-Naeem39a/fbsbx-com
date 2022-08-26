@@ -1,25 +1,24 @@
-import React from 'react'
-import Headerlogo from './Headerlogo';
-import sidedots from '../components/dots.svg'
-import logo from '../assets/header-logo.png';
-import shoppingmall from '../components/clean.jpg'
+import React from "react";
+import Headerlogo from "./Headerlogo";
+import sidedots from "../components/dots.svg";
+import logo from "../assets/header-logo.png";
+import shoppingmall from "../components/clean.jpg";
 import { useState } from "react";
-
 
 function Header() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="sticky -mb-6 w-full">
-        <div className="justify-between lg:max-w-7xl md:items-center md:flex md:px-2">
+      <nav className="w-full bg-white sticky">
+        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between md:py-5 md:block">
-              <a href="javascript:void(0)">
-                <img src={logo} className='w-52 ml-12' />
+            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+              <a href="/">
+                <img src={logo} className='w-1/2' />
               </a>
               <div className="md:hidden">
                 <button
-                  className="text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
@@ -57,21 +56,22 @@ function Header() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
-                }`}
+              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+                navbar ? "block" : "hidden"
+              }`}
             >
-              <ul className="items-center justify-center space-y-8 mt-6 md:flex md:space-x-12 md:space-y-0 md:text-xl font-bold">
+              <ul className="items-center justify-center space-y-8 mt-6 md:flex md:space-x-12 md:space-y-0 xs:text-sm sm:text-lg md:text-2xl font-bold">
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="#home">Home</a>
+                  <a href="javascript:void(0)">Home</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="#about">About</a>
+                  <a href="javascript:void(0)">About</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
                   <a href="javascript:void(0)">Service</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="#contact">Contact us</a>
+                  <a href="javascript:void(0)">Contact us</a>
                 </li>
               </ul>
             </div>
@@ -79,7 +79,7 @@ function Header() {
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
