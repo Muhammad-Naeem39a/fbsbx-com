@@ -16,7 +16,7 @@ function App() {
             <div className="bg-gray-200 h-4"></div>
           </div>
           <div className="relative flex py-5 items-center">
-            <div className="flex-grow border-t border-blue-400"></div>
+            <div id="about" className="flex-grow border-t border-blue-400"></div>
             <span className="">
               <img src={logo} className="h-12 w-15" />
             </span>
@@ -28,7 +28,7 @@ function App() {
           </div>
 
           <div className="relative flex py-5 items-center">
-            <div className="flex-grow border-t border-blue-400"></div>
+            <div id="contact"className="flex-grow border-t border-blue-400"></div>
             <span className="">
               <img src={logo} className="h-12 w-15" />
             </span>
