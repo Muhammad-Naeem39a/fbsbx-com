@@ -127,25 +127,26 @@ function Contact() {
           <SocialIcon
             style={{ width: 60, height: 60, borderRadius: 20 }}
             fgColor="white"
-            bgColor
+            bgColor=""
             url="https://twitter.com"
           />
           <SocialIcon
             style={{ width: 60, height: 60, borderRadius: 20 }}
             fgColor="white"
-            bgColor
+            bgColor=""
+
             url="https://facebook.com"
           />
           <SocialIcon
             style={{ width: 60, height: 60, borderRadius: 20 }}
             fgColor="white"
-            bgColor
+            bgColor=""
             url="https://instagram.com"
           />
           <SocialIcon
             style={{ width: 60, height: 60, borderRadius: 20 }}
             fgColor="white"
-            bgColor
+            bgColor=""
             url="https://linkedin.com"
           />
         </div>
