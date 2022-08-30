@@ -12,10 +12,10 @@ function App() {
         <Header />
         <div className="w-screen">
           <Body />
-          <div className="py-12">
+          <div className="md:py-12 2xs:mt-6 2xs:py-4">
             <div className="bg-gray-200 h-4"></div>
           </div>
-          <div className="relative flex py-5 items-center">
+          <div className="relative flex md:py-5 2xs:py-2 2xs:pb-3 items-center">
             <div id="about" className="flex-grow border-t border-blue-400"></div>
             <span className="">
               <img src={logo} className="h-12 w-15" />
@@ -23,11 +23,11 @@ function App() {
             <div className="flex-grow border-t border-blue-400"></div>
           </div>
           <About />
-          <div className="py-12">
+          <div className="md:py-12 2xs:mt-6 2xs:py-4">
             <div className="bg-gray-200 h-4"></div>
           </div>
 
-          <div className="relative flex py-5 items-center">
+          <div className="relative flex md:py-5 2xs:py-2 2xs:pb-3 items-center">
             <div id="contact"className="flex-grow border-t border-blue-400"></div>
             <span className="">
               <img src={logo} className="h-12 w-15" />

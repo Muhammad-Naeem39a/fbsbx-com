@@ -60,7 +60,7 @@ function Header() {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center justify-center space-y-8 mt-6 md:flex md:space-x-12 md:space-y-0 xs:text-sm sm:text-lg md:text-2xl font-bold">
+              <ul className="items-center justify-center space-y-8 mt-6 md:flex md:space-x-12 md:space-y-0 xs:text-xs sm:text-lg md:text-2xl font-bold">
                 <li className="text-gray-600 hover:text-blue-600">
                   <a href="#home">Home</a>
                 </li>
